@@ -1,191 +1,1726 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Close Shave Esports</title>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Close Shave Esports | Official Website</title>
+
     <meta name="description"
-        content="Close Shave Esports — competitive team, highlights, roster, schedule and YouTube content.">
+        content="Official website of Close Shave Esports. Competitive gaming, tournaments, highlights, roster and community.">
+
+    <meta name="keywords" content="Close Shave Esports, Esports, Valorant, CS2, Gaming, Tournament, Team">
+
+    <meta name="author" content="Close Shave Esports">
+
+    <meta property="og:title" content="Close Shave Esports">
+
+    <meta property="og:description" content="Official Website">
+
+    <meta property="og:image" content="assets/CLOSE_SHAVE-removebg-preview.png">
+
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="assets/CLOSE_SHAVE-removebg-preview.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/CLOSE_SHAVE-removebg-preview.png" type="image/png">
+
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="brand" href="#">
-                <!-- Replace with your logo: keep same size or edit styles -->
-                <img src="assets/CLOSE_SHAVE-removebg-preview.png" alt="Close Shave Esports" class="logo" onerror="this.style.display='none'">
-                <span class="brand-text">Close Shave Esports</span>
+
+
+
+    <!-- ========================= -->
+
+    <!-- LOADER -->
+
+    <!-- ========================= -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <img src="assets/CLOSE_SHAVE-removebg-preview.png" alt="Logo">
+
+            <h1>CLOSE SHAVE</h1>
+
+            <div class="loading-line">
+
+                <span></span>
+
+            </div>
+
+            <p>Loading Experience...</p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ========================= -->
+
+    <!-- MOUSE GLOW -->
+
+    <!-- ========================= -->
+
+    <div id="cursor-glow"></div>
+
+
+
+    <!-- ========================= -->
+
+    <!-- SCROLL PROGRESS -->
+
+    <!-- ========================= -->
+
+    <div id="progress-bar"></div>
+
+
+
+    <!-- ========================= -->
+
+    <!-- ANNOUNCEMENT BAR -->
+
+    <!-- ========================= -->
+
+    <section class="announcement">
+
+        <div class="announcement-track">
+
+            <span>
+
+                🔥 NEW VIDEO OUT NOW
+
+            </span>
+
+            <span>
+
+                🏆 QUALIFIED FOR NATIONAL TOURNAMENT
+
+            </span>
+
+            <span>
+
+                🎮 RECRUITING COMPETITIVE PLAYERS
+
+            </span>
+
+            <span>
+
+                📢 JOIN OUR DISCORD COMMUNITY
+
+            </span>
+
+            <span>
+
+                ⚡ WEEKLY LIVESTREAM EVERY SATURDAY
+
+            </span>
+
+            <span>
+
+                🔥 NEW VIDEO OUT NOW
+
+            </span>
+
+            <span>
+
+                🏆 QUALIFIED FOR NATIONAL TOURNAMENT
+
+            </span>
+
+            <span>
+
+                🎮 RECRUITING COMPETITIVE PLAYERS
+
+            </span>
+
+            <span>
+
+                📢 JOIN OUR DISCORD COMMUNITY
+
+            </span>
+
+            <span>
+
+                ⚡ WEEKLY LIVESTREAM EVERY SATURDAY
+
+            </span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+
+    <!-- HEADER -->
+
+    <!-- ========================= -->
+
+    <header id="header">
+
+        <div class="container">
+
+            <a href="#hero" class="logo">
+
+                <img src="assets/CLOSE_SHAVE-removebg-preview.png" alt="Close Shave">
+
+                <div>
+
+                    <h2>CLOSE SHAVE</h2>
+
+                    <p>ESPORTS</p>
+
+                </div>
+
             </a>
 
-            <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
-                <span class="burger"></span>
-            </button>
 
-            <nav class="nav" id="siteNav">
-                <a href="#home">Home</a>
+
+            <nav id="navbar">
+
+                <a href="#hero">Home</a>
+
                 <a href="#about">About</a>
+
                 <a href="#roster">Roster</a>
+
                 <a href="#schedule">Schedule</a>
+
                 <a href="#media">Media</a>
+
+                <a href="#gallery">Gallery</a>
+
                 <a href="#contact">Contact</a>
+
             </nav>
+
+
+
+            <div class="header-buttons">
+
+                <a href="#roster" class="primary-btn">
+
+                    Roster
+
+                </a>
+
+                <button id="menu-btn">
+
+                    ☰
+
+                </button>
+
+            </div>
+
         </div>
+
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container hero-inner">
-                <h1>Close Shave Esports</h1>
-                <p class="tagline">Precision. Practice. Passion. — Champions in the making.</p>
-                <div class="cta-row">
-                    <a class="btn primary" href="#roster">Meet the Team</a>
-                    <a class="btn ghost" href="https://www.youtube.com/@CLOSESHAVE_ESP" target="_blank" rel="noopener">Visit our
-                        YouTube</a>
-                </div>
-            </div>
-            <div class="hero-overlay"></div>
-        </section>
 
-        <section id="about" class="section container">
-            <div class="grid two-col">
-                <div>
-                    <h2>About Close Shave</h2>
-                    <p>Close Shave Esports is a competitive gaming team focused on teamwork, content creation, and
-                        growth on platforms like YouTube and Twitch. We create match highlights, tutorials, and
-                        behind-the-scenes content — all with a sleek, bold style.</p>
-                    <ul class="features">
-                        <li>Competitive rosters across multiple titles</li>
-                        <li>Weekly video content and match breakdowns</li>
-                        <li>Community events and scrims</li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="card">
-                        <h3>Quick Facts</h3>
-                        <p><strong>Founded:</strong> 2022</p>
-                        <p><strong>Primary Colors:</strong> Deep Red &amp; Black</p>
-                        <p><strong>Platforms:</strong> YouTube, Twitch, Discord</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="roster" class="section roster">
-            <div class="container">
-                <h2>Roster</h2>
-                <p class="muted">Tap a player to view details.</p>
-                <div class="grid roster-grid" id="rosterGrid">
-                    <!-- Player cards generated by JS. Put fallback here for no-JS users -->
-                    <article class="player" tabindex="0"
-                        data-player='{"name":"Razor","role":"Captain / AD","bio":"Aggressive entry fragger with a focus on macro plays."}'>
-                        <div class="player-avatar">RZ</div>
-                        <h4>Razor</h4>
-                        <p class="role">Captain</p>
-                    </article>
+    <!-- ========================= -->
 
-                    <article class="player" tabindex="0"
-                        data-player='{"name":"Clip","role":"Support","bio":"In-game leader focused on utility and vision control."}'>
-                        <div class="player-avatar">CL</div>
-                        <h4>Clip</h4>
-                        <p class="role">Support</p>
-                    </article>
+    <!-- HERO -->
 
-                    <article class="player" tabindex="0"
-                        data-player='{"name":"Shave","role":"Flex","bio":"Versatile player who adapts to the meta fast."}'>
-                        <div class="player-avatar">SV</div>
-                        <h4>Shave</h4>
-                        <p class="role">Flex</p>
-                    </article>
+    <!-- ========================= -->
 
-                    <!-- Add more players as needed -->
-                </div>
+<!-- ================= HERO V2 ================= -->
+
+<section id="hero">
+
+    <canvas id="particles"></canvas>
+
+    <div class="hero-noise"></div>
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-left">
+
+            <span class="hero-tag">
+                ⚡ PROFESSIONAL ESPORTS ORGANIZATION
+            </span>
+
+            <h1>
+
+                <span>CLOSE</span>
+
+                <span class="accent">SHAVE</span>
+
+                <span>ESPORTS</span>
+
+            </h1>
+
+            <p id="typing-text"></p>
+
+            <div class="hero-buttons">
+
+                <a href="#media" class="primary-btn">
+
+                    ▶ WATCH NOW
+
+                </a>
+
+                <a href="#roster" class="secondary-btn">
+
+                    OUR ROSTER
+
+                </a>
+
             </div>
 
-            <!-- Modal for player details -->
-            <div class="modal" id="playerModal" aria-hidden="true">
-                <div class="modal-inner">
-                    <button class="modal-close" id="modalClose">✕</button>
-                    <h3 id="modalName"></h3>
-                    <p id="modalRole" class="muted"></p>
-                    <p id="modalBio"></p>
-                </div>
+            <div class="hero-social">
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-discord"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
             </div>
-        </section>
 
-        <section id="schedule" class="section container">
-            <h2>Upcoming Schedule</h2>
-            <div class="schedule-list" id="scheduleList">
-                <!-- JS can fill this. Fallback static entry: -->
-                <div class="match">
-                    <div>
-                        <strong>Nov 20, 2025</strong>
-                        <div class="muted">Scrim vs NightFall Gaming</div>
-                    </div>
-                    <div><button class="btn small" data-match-id="1">Details</button></div>
-                </div>
-            </div>
-        </section>
-
-        <section id="media" class="section container">
-            <h2>Media</h2>
-            <p class="muted">Latest videos from our YouTube channel and match highlights.</p>
-
-            <div class="media-grid" id="mediaGrid">
-                <!-- YouTube embeds - swap channel or playlist IDs as needed -->
-                <div class="video-embed">
-                    <iframe src="https://youtu.be/OEfJbK7CBWs?si=7gGoHXxM3IpoD27w"
-                        title="Close Shave YouTube" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="highlight-carousel" id="carousel">
-                    <button class="carousel-btn prev" aria-label="Previous">‹</button>
-                    <div class="carousel-track" id="carouselTrack">
-                        <div class="slide">Highlight 1</div>
-                        <div class="slide">Highlight 2</div>
-                        <div class="slide">Highlight 3</div>
-                    </div>
-                    <button class="carousel-btn next" aria-label="Next">›</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact container">
-            <h2>Contact & Socials</h2>
-            <p>Email: <a href="mailto:contact@closeshaveesports.com">contact@closeshaveesports.com</a></p>
-            <p>Discord: <em>invite-link-here</em></p>
-            <form id="contactForm" class="contact-form" novalidate>
-                <label>Full name
-                    <input type="text" name="name" required>
-                </label>
-                <label>Email
-                    <input type="email" name="email" required>
-                </label>
-                <label>Message
-                    <textarea name="message" rows="4" required></textarea>
-                </label>
-                <div class="form-row">
-                    <button type="submit" class="btn primary">Send message</button>
-                </div>
-                <p id="formMsg" class="muted"></p>
-            </form>
-        </section>
-
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <div>© <span id="year"></span> Close Shave Esports</div>
-            <div class="socials">
-                <a href="#" aria-label="YouTube">YT</a>
-                <a href="#" aria-label="Twitch">TW</a>
-                <a href="#" aria-label="Discord">DC</a>
-            </div>
         </div>
+
+        <div class="hero-right">
+
+            <div class="logo-wrapper">
+
+                <span class="ring ring1"></span>
+                <span class="ring ring2"></span>
+                <span class="ring ring3"></span>
+
+                <img src="assets/CLOSE_SHAVE-removebg-preview.png" class="hero-logo">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="15">
+
+                0
+
+            </h2>
+
+            <span>K+</span>
+
+            <p>Subscribers</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="250">
+
+                0
+
+            </h2>
+
+            <p>Videos</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="180">
+
+                0
+
+            </h2>
+
+            <p>Matches</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="26">
+
+                0
+
+            </h2>
+
+            <p>Trophies</p>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+
+        <span></span>
+
+    </div>
+
+</section>
+    <!-- ========================================================= -->
+    <!-- ABOUT -->
+    <!-- ========================================================= -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <span>WHO WE ARE</span>
+
+                <h2>Built For Victory.</h2>
+
+                <p>
+                    Close Shave Esports is more than just a gaming team.
+                    We are a passionate community of competitive players,
+                    content creators and esports enthusiasts striving to
+                    reach the highest level of competition.
+                </p>
+
+            </div>
+
+
+
+            <div class="about-grid">
+
+                <div class="about-image" data-aos="fade-right">
+
+                    <img src="assets/about.webp" alt="About Close Shave">
+
+                    <div class="experience-box">
+
+                        <h2>3+</h2>
+
+                        <p>Years Experience</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="about-content" data-aos="fade-left">
+
+                    <div class="about-card">
+
+                        <h3>
+
+                            🎯 Our Mission
+
+                        </h3>
+
+                        <p>
+
+                            To build one of the strongest gaming communities while inspiring the next generation of
+                            competitive players through consistency, teamwork and creativity.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="about-card">
+
+                        <h3>
+
+                            🏆 Our Vision
+
+                        </h3>
+
+                        <p>
+
+                            Become a globally recognized esports organization producing championship players and premium
+                            gaming content.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="about-card">
+
+                        <h3>
+
+                            🔥 Core Values
+
+                        </h3>
+
+                        <ul>
+
+                            <li>Professionalism</li>
+
+                            <li>Discipline</li>
+
+                            <li>Passion</li>
+
+                            <li>Innovation</li>
+
+                            <li>Respect</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- STATS -->
+    <!-- ========================================================= -->
+
+    <section id="stats">
+
+        <div class="container">
+
+
+
+            <div class="stat-card" data-aos="zoom-in">
+
+                <h2 class="counter" data-target="15000">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Community Members
+
+                </p>
+
+            </div>
+
+
+
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+
+                <h2 class="counter" data-target="150">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Videos Published
+
+                </p>
+
+            </div>
+
+
+
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+
+                <h2 class="counter" data-target="120">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Matches Played
+
+                </p>
+
+            </div>
+
+
+
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+
+                <h2 class="counter" data-target="22">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Tournament Wins
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- WHY CHOOSE US -->
+    <!-- ========================================================= -->
+
+    <section id="features">
+
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <span>WHY US</span>
+
+                <h2>What Makes Close Shave Different?</h2>
+
+            </div>
+
+
+
+            <div class="feature-grid">
+
+
+
+                <div class="feature-card" data-aos="fade-up">
+
+                    <div class="feature-icon">
+
+                        🎮
+
+                    </div>
+
+                    <h3>
+
+                        Competitive Gaming
+
+                    </h3>
+
+                    <p>
+
+                        Professional practice,
+                        teamwork and tournament participation.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="feature-icon">
+
+                        📺
+
+                    </div>
+
+                    <h3>
+
+                        Content Creation
+
+                    </h3>
+
+                    <p>
+
+                        High quality YouTube videos,
+                        livestreams and gaming tutorials.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="feature-icon">
+
+                        🌎
+
+                    </div>
+
+                    <h3>
+
+                        Growing Community
+
+                    </h3>
+
+                    <p>
+
+                        Join thousands of gamers from around the world.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+
+                    <div class="feature-icon">
+
+                        🏆
+
+                    </div>
+
+                    <h3>
+
+                        Esports Events
+
+                    </h3>
+
+                    <p>
+
+                        Regular tournaments,
+                        scrims and community competitions.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+
+                    <div class="feature-icon">
+
+                        🤝
+
+                    </div>
+
+                    <h3>
+
+                        Collaborations
+
+                    </h3>
+
+                    <p>
+
+                        Partnering with creators,
+                        organizations and brands.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+
+                    <div class="feature-icon">
+
+                        🚀
+
+                    </div>
+
+                    <h3>
+
+                        Future Ready
+
+                    </h3>
+
+                    <p>
+
+                        Always evolving with modern gaming,
+                        technology and innovation.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- ROSTER -->
+    <!-- ========================================================= -->
+
+    <section id="roster">
+
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <span>OUR TEAM</span>
+
+                <h2>Meet The Roster</h2>
+
+                <p>
+
+                    Tap any player to view the complete profile.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="roster-grid">
+
+
+
+                <!-- PLAYER 1 -->
+
+                <div class="player-card" data-player='{
+    
+    "name":"RAZOR",
+    
+    "role":"Captain / Entry",
+    
+    "country":"India",
+    
+    "age":"21",
+    
+    "image":"assets/players/razor.webp",
+    
+    "bio":"The fearless leader of Close Shave Esports, known for aggressive entries, confident calls and unmatched game sense."
+    
+    }' tabindex="0">
+
+                    <div class="player-image">
+
+                        <img src="assets/players/razor.webp" alt="Razor">
+
+                    </div>
+
+                    <div class="player-info">
+
+                        <span>
+
+                            Captain
+
+                        </span>
+
+                        <h3>
+
+                            RAZOR
+
+                        </h3>
+
+                        <p>
+
+                            Entry Fragger
+
+                        </p>
+
+                        <button>
+
+                            View Profile
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PLAYER 2 -->
+
+                <div class="player-card" data-player='{
+    
+    "name":"CLIP",
+    
+    "role":"Support",
+    
+    "country":"India",
+    
+    "age":"20",
+    
+    "image":"assets/players/clip.webp",
+    
+    "bio":"Master strategist and support specialist controlling every round."
+    
+    }' tabindex="0">
+
+                    <div class="player-image">
+
+                        <img src="assets/players/clip.webp" alt="Clip">
+
+                    </div>
+
+                    <div class="player-info">
+
+                        <span>
+
+                            Support
+
+                        </span>
+
+                        <h3>
+
+                            CLIP
+
+                        </h3>
+
+                        <p>
+
+                            IGL
+
+                        </p>
+
+                        <button>
+
+                            View Profile
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PLAYER 3 -->
+
+                <div class="player-card" data-player='{
+    
+    "name":"SHAVE",
+    
+    "role":"Flex",
+    
+    "country":"India",
+    
+    "age":"20",
+    
+    "image":"assets/players/shave.webp",
+    
+    "bio":"Versatile player capable of adapting to any role."
+    
+    }' tabindex="0">
+
+                    <div class="player-image">
+
+                        <img src="assets/players/shave.webp" alt="Shave">
+
+                    </div>
+
+                    <div class="player-info">
+
+                        <span>
+
+                            Flex
+
+                        </span>
+
+                        <h3>
+
+                            SHAVE
+
+                        </h3>
+
+                        <p>
+
+                            All Rounder
+
+                        </p>
+
+                        <button>
+
+                            View Profile
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PLAYER 4 -->
+
+                <div class="player-card" data-player='{
+    
+    "name":"NIKK",
+    
+    "role":"Anchor",
+    
+    "country":"India",
+    
+    "age":"19",
+    
+    "image":"assets/players/nikk.webp",
+    
+    "bio":"Reliable anchor with exceptional defensive positioning."
+    
+    }' tabindex="0">
+
+                    <div class="player-image">
+
+                        <img src="assets/players/nikk.webp" alt="Nikk">
+
+                    </div>
+
+                    <div class="player-info">
+
+                        <span>
+
+                            Anchor
+
+                        </span>
+
+                        <h3>
+
+                            NIKK
+
+                        </h3>
+
+                        <p>
+
+                            Defense Specialist
+
+                        </p>
+
+                        <button>
+
+                            View Profile
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========================================================= -->
+    <!-- PLAYER MODAL -->
+    <!-- ========================================================= -->
+
+    <div id="playerModal" class="player-modal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-box">
+
+            <button class="close-modal">
+
+                ✕
+
+            </button>
+
+            <div class="modal-left">
+
+                <img id="modal-image" src="" alt="Player">
+
+            </div>
+
+            <div class="modal-right">
+
+                <span class="modal-tag">
+
+                    PLAYER PROFILE
+
+                </span>
+
+                <h2 id="modal-name">
+
+                    Player
+
+                </h2>
+
+                <h4 id="modal-role">
+
+                    Role
+
+                </h4>
+
+                <div class="modal-details">
+
+                    <div>
+
+                        <strong>Country</strong>
+
+                        <p id="modal-country"></p>
+
+                    </div>
+
+                    <div>
+
+                        <strong>Age</strong>
+
+                        <p id="modal-age"></p>
+
+                    </div>
+
+                </div>
+
+                <p id="modal-bio">
+
+                    Biography...
+
+                </p>
+
+                <div class="modal-socials">
+
+                    <a href="#">
+
+                        <i class="fab fa-youtube"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fab fa-discord"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fab fa-x-twitter"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- TOURNAMENTS -->
+    <!-- ========================================================= -->
+
+    <section id="schedule">
+
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <span>
+
+                    UPCOMING EVENTS
+
+                </span>
+
+                <h2>
+
+                    Tournament Schedule
+
+                </h2>
+
+            </div>
+
+            <div class="schedule-grid">
+
+
+
+                <div class="match-card">
+
+                    <div class="match-date">
+
+                        15
+
+                        <span>
+
+                            JUL
+
+                        </span>
+
+                    </div>
+
+                    <div class="match-content">
+
+                        <h3>
+
+                            Valorant Community Cup
+
+                        </h3>
+
+                        <p>
+
+                            Best Of 3
+
+                        </p>
+
+                    </div>
+
+                    <div class="match-status upcoming">
+
+                        Upcoming
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="match-card">
+
+                    <div class="match-date">
+
+                        22
+
+                        <span>
+
+                            JUL
+
+                        </span>
+
+                    </div>
+
+                    <div class="match-content">
+
+                        <h3>
+
+                            BGMI Invitational
+
+                        </h3>
+
+                        <p>
+
+                            Online
+
+                        </p>
+
+                    </div>
+
+                    <div class="match-status">
+
+                        Upcoming
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="match-card">
+
+                    <div class="match-date">
+
+                        29
+
+                        <span>
+
+                            JUL
+
+                        </span>
+
+                    </div>
+
+                    <div class="match-content">
+
+                        <h3>
+
+                            Close Shave Showdown
+
+                        </h3>
+
+                        <p>
+
+                            Community Tournament
+
+                        </p>
+
+                    </div>
+
+                    <div class="match-status">
+
+                        Registration Open
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- MEDIA -->
+    <!-- ========================================================= -->
+
+    <section id="media">
+
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <span>
+
+                    LATEST CONTENT
+
+                </span>
+
+                <h2>
+
+                    Featured Videos
+
+                </h2>
+
+            </div>
+
+            <div class="media-grid">
+
+
+
+                <div class="video-card">
+
+                    <iframe src="https://www.youtube.com/embed/OEfJbK7CBWs" allowfullscreen>
+
+                    </iframe>
+
+                    <div class="video-info">
+
+                        <h3>
+
+                            Latest Match Highlights
+
+                        </h3>
+
+                        <p>
+
+                            Watch our newest upload.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="video-list">
+
+                    <div class="small-video">
+
+                        <img src="assets/videos/thumb1.webp" alt="">
+
+                        <div>
+
+                            <h4>
+
+                                Tournament Vlog
+
+                            </h4>
+
+                            <p>
+
+                                Watch →
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="small-video">
+
+                        <img src="assets/videos/thumb2.webp" alt="">
+
+                        <div>
+
+                            <h4>
+
+                                Top 10 Clutches
+
+                            </h4>
+
+                            <p>
+
+                                Watch →
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="small-video">
+
+                        <img src="assets/videos/thumb3.webp" alt="">
+
+                        <div>
+
+                            <h4>
+
+                                Road To Champion
+
+                            </h4>
+
+                            <p>
+
+                                Watch →
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- GALLERY -->
+    <!-- ========================================================= -->
+
+    <section id="gallery">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>
+
+                    GALLERY
+
+                </span>
+
+                <h2>
+
+                    Team Moments
+
+                </h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <img src="assets/gallery/1.webp" alt="">
+
+                <img src="assets/gallery/2.webp" alt="">
+
+                <img src="assets/gallery/3.webp" alt="">
+
+                <img src="assets/gallery/4.webp" alt="">
+
+                <img src="assets/gallery/5.webp" alt="">
+
+                <img src="assets/gallery/6.webp" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- SPONSORS -->
+    <!-- ========================================================= -->
+
+    <section id="sponsors">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>
+
+                    OUR PARTNERS
+
+                </span>
+
+                <h2>
+
+                    Sponsors
+
+                </h2>
+
+            </div>
+
+            <div class="sponsor-slider">
+
+                <img src="assets/sponsors/1.webp">
+
+                <img src="assets/sponsors/2.webp">
+
+                <img src="assets/sponsors/3.webp">
+
+                <img src="assets/sponsors/4.webp">
+
+                <img src="assets/sponsors/5.webp">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- CONTACT -->
+    <!-- ========================================================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="contact-grid">
+
+                <div>
+
+                    <span>
+
+                        CONTACT US
+
+                    </span>
+
+                    <h2>
+
+                        Let's Build Something Great Together
+
+                    </h2>
+
+                    <p>
+
+                        Business Inquiries
+
+                        <br>
+
+                        contact@closeshaveesports.com
+
+                    </p>
+
+                    <p>
+
+                        Discord
+
+                        <br>
+
+                        discord.gg/closeshave
+
+                    </p>
+
+                </div>
+
+                <form id="contactForm">
+
+                    <input type="text" placeholder="Full Name" required>
+
+                    <input type="email" placeholder="Email" required>
+
+                    <textarea placeholder="Message" required>
+
+    </textarea>
+
+                    <button type="submit" class="primary-btn">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================================= -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <img src="assets/CLOSE_SHAVE-removebg-preview.png" class="footer-logo">
+
+                <h3>
+
+                    Close Shave Esports
+
+                </h3>
+
+                <p>
+
+                    Precision.
+
+                    Passion.
+
+                    Champions.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>
+
+                    Navigation
+
+                </h4>
+
+                <a href="#hero">
+
+                    Home
+
+                </a>
+
+                <a href="#about">
+
+                    About
+
+                </a>
+
+                <a href="#roster">
+
+                    Roster
+
+                </a>
+
+                <a href="#media">
+
+                    Media
+
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4>
+
+                    Follow Us
+
+                </h4>
+
+                <a href="#">
+
+                    YouTube
+
+                </a>
+
+                <a href="#">
+
+                    Instagram
+
+                </a>
+
+                <a href="#">
+
+                    Discord
+
+                </a>
+
+                <a href="#">
+
+                    X (Twitter)
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © <span id="year"></span> Close Shave Esports. All Rights Reserved.
+
+        </div>
+
     </footer>
 
-    <script src="main.js" defer></script>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/6b2e3d4f9e.js" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
 </body>
 
 </html>
